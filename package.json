@@ -1,0 +1,12 @@
+{
+  "name": "fluffy-os",
+  "version": "1.0.0",
+  "description": "fluffy?",
+  "scripts": {
+  },
+  "type": "module",
+  "author": "deadapi",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

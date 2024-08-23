@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluffy OS</title>
+  <link rel="stylesheet" href="./fluffy.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="taskbar">
+    <div class="taskbar-item">Menu</div>
+    <div class="taskbar-item">Apps</div>
+    <div class="taskbar-item">Notifications</div>
+    <div class="taskbar-item">Settings</div>
+  </div>
+  <div class="desktop">
+    <div class="desktop-icon" id="icon-1">
+      <i class="fas fa-home"></i>
+      <p>Home</p>
+    </div>
+    <div class="desktop-icon" id="icon-2">
+      <i class="fas fa-cogs"></i>
+      <p>Settings</p>
+    </div>
+  </div>
+  <div class="window" id="window-1">
+    <div class="window-header">test</div>
+    <div class="window-content">
+      <p>test</p>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+  <script type="module" src="./fluffy.ts"></script>
+</body>
+</html>
